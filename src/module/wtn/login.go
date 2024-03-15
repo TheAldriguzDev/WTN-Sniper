@@ -143,7 +143,6 @@ func (s *WTNSession) session() (LoginSession, error) {
 		"accept-language":    {"it-IT,it;q=0.9,en-IT;q=0.8,en;q=0.7,si-LK;q=0.6,si;q=0.5,en-US;q=0.4"},
 		"content-type":       {"application/json"},
 		"if-none-match":      {"\"bwc9mymkdm2\""},
-		"newrelic":           {"eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjM0MDM2NTMiLCJhcCI6IjMyMjU1MjQwNiIsImlkIjoiNmM0NTllNzRjNGYyNGU1MiIsInRyIjoiZWVlNjY0OTZhZWM0MzEwNTVmNzA1ODY4NjNlMzg1YjAiLCJ0aSI6MTcwNzMyNjE4MjYyNX19"},
 		"referer":            {"https://sell.wethenew.com/login"},
 		"sec-ch-ua":          {"\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\""},
 		"sec-ch-ua-mobile":   {"?0"},

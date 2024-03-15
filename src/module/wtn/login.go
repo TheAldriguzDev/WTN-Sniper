@@ -271,7 +271,6 @@ func (s *WTNSession) refreshSession() (LoginSession, error) {
 		"content-type":       {"application/json"},
 		"cookie":             {cookie_message},
 		"if-none-match":      {"\"bwc9mymkdm2\""},
-		"newrelic":           {"eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjM0MDM2NTMiLCJhcCI6IjMyMjU1MjQwNiIsImlkIjoiNmM0NTllNzRjNGYyNGU1MiIsInRyIjoiZWVlNjY0OTZhZWM0MzEwNTVmNzA1ODY4NjNlMzg1YjAiLCJ0aSI6MTcwNzMyNjE4MjYyNX19"},
 		"referer":            {"https://sell.wethenew.com/login"},
 		"sec-ch-ua":          {"\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\""},
 		"sec-ch-ua-mobile":   {"?0"},

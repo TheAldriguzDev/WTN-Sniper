@@ -38,8 +38,8 @@ func successWebhook(settings file_manager.SettingsData) bool {
 		Inline: true,
 	})
 	tempEmbed.Footer = notifier.Footer{
-		Text:    "Kitsune WTN",
-		IconURL: "https://media.discordapp.net/attachments/1198216317870817292/1199790308074979370/kitsune.png?ex=65c3d2cc&is=65b15dcc&hm=f3c166eae7f0b33c9af82656d85c73e5390c47cc8f984ebefb4ec74c3f0c65e2&=&format=webp&quality=lossless&width=1228&height=1228",
+		Text:    "WTN Sniper",
+		IconURL: "https://s3-eu-west-1.amazonaws.com/tpd/logos/5c741846c666770001962f39/0x0.png",
 	}
 	tempEmbed.Color = 366185
 	tempEmbed.Timestamp = time.Now().UTC().Format("2006-01-02T15:04:05.000Z")
@@ -73,8 +73,8 @@ func errorWebhook(settings file_manager.SettingsData) bool {
 		Inline: true,
 	})
 	tempEmbed.Footer = notifier.Footer{
-		Text:    "Kitsune WTN",
-		IconURL: "https://media.discordapp.net/attachments/1198216317870817292/1199790308074979370/kitsune.png?ex=65c3d2cc&is=65b15dcc&hm=f3c166eae7f0b33c9af82656d85c73e5390c47cc8f984ebefb4ec74c3f0c65e2&=&format=webp&quality=lossless&width=1228&height=1228",
+		Text:    "WTN Sniper",
+		IconURL: "https://s3-eu-west-1.amazonaws.com/tpd/logos/5c741846c666770001962f39/0x0.png",
 	}
 	tempEmbed.Color = 14427686
 	tempEmbed.Timestamp = time.Now().UTC().Format("2006-01-02T15:04:05.000Z")
@@ -99,8 +99,8 @@ func (s *WTNSession) listingWebhook() bool {
 		Inline: true,
 	})
 	tempEmbed.Footer = notifier.Footer{
-		Text:    "Kitsune WTN",
-		IconURL: "https://media.discordapp.net/attachments/1198216317870817292/1199790308074979370/kitsune.png?ex=65c3d2cc&is=65b15dcc&hm=f3c166eae7f0b33c9af82656d85c73e5390c47cc8f984ebefb4ec74c3f0c65e2&=&format=webp&quality=lossless&width=1228&height=1228",
+		Text:    "WTN Sniper",
+		IconURL: "https://s3-eu-west-1.amazonaws.com/tpd/logos/5c741846c666770001962f39/0x0.png",
 	}
 	tempEmbed.Color = 366185
 	tempEmbed.Timestamp = time.Now().UTC().Format("2006-01-02T15:04:05.000Z")
@@ -141,8 +141,8 @@ func (s *WTNSession) labelWebhook(sale Label_Result) bool {
 	})
 	tempEmbed.Thumbnail.URL = sale.Label_Product.Image
 	tempEmbed.Footer = notifier.Footer{
-		Text:    "Kitsune WTN",
-		IconURL: "https://media.discordapp.net/attachments/1198216317870817292/1199790308074979370/kitsune.png?ex=65c3d2cc&is=65b15dcc&hm=f3c166eae7f0b33c9af82656d85c73e5390c47cc8f984ebefb4ec74c3f0c65e2&=&format=webp&quality=lossless&width=1228&height=1228",
+		Text:    "WTN Sniper",
+		IconURL: "https://s3-eu-west-1.amazonaws.com/tpd/logos/5c741846c666770001962f39/0x0.png",
 	}
 	tempEmbed.Color = 366185
 	tempEmbed.Timestamp = time.Now().UTC().Format("2006-01-02T15:04:05.000Z")
@@ -178,8 +178,8 @@ func (s *WTNSession) extendWebhook(product Result) bool {
 	})
 	tempEmbed.Thumbnail.URL = product.Product.Image
 	tempEmbed.Footer = notifier.Footer{
-		Text:    "Kitsune WTN",
-		IconURL: "https://media.discordapp.net/attachments/1198216317870817292/1199790308074979370/kitsune.png?ex=65c3d2cc&is=65b15dcc&hm=f3c166eae7f0b33c9af82656d85c73e5390c47cc8f984ebefb4ec74c3f0c65e2&=&format=webp&quality=lossless&width=1228&height=1228",
+		Text:    "WTN Sniper",
+		IconURL: "https://s3-eu-west-1.amazonaws.com/tpd/logos/5c741846c666770001962f39/0x0.png",
 	}
 	tempEmbed.Color = 366185
 	tempEmbed.Timestamp = time.Now().UTC().Format("2006-01-02T15:04:05.000Z")
@@ -220,8 +220,8 @@ func (s *WTNSession) offerFoundWebhook(offer Offer_Result) bool {
 	})
 	tempEmbed.Thumbnail.URL = offer.Image
 	tempEmbed.Footer = notifier.Footer{
-		Text:    "Kitsune WTN",
-		IconURL: "https://media.discordapp.net/attachments/1198216317870817292/1199790308074979370/kitsune.png?ex=65c3d2cc&is=65b15dcc&hm=f3c166eae7f0b33c9af82656d85c73e5390c47cc8f984ebefb4ec74c3f0c65e2&=&format=webp&quality=lossless&width=1228&height=1228",
+		Text:    "WTN Sniper",
+		IconURL: "https://s3-eu-west-1.amazonaws.com/tpd/logos/5c741846c666770001962f39/0x0.png",
 	}
 	tempEmbed.Color = 366185
 	tempEmbed.Timestamp = time.Now().UTC().Format("2006-01-02T15:04:05.000Z")
@@ -262,8 +262,8 @@ func (s *WTNSession) acceptWebhook(offer Offer_Result) bool {
 	})
 	tempEmbed.Thumbnail.URL = offer.Image
 	tempEmbed.Footer = notifier.Footer{
-		Text:    "Kitsune WTN",
-		IconURL: "https://media.discordapp.net/attachments/1198216317870817292/1199790308074979370/kitsune.png?ex=65c3d2cc&is=65b15dcc&hm=f3c166eae7f0b33c9af82656d85c73e5390c47cc8f984ebefb4ec74c3f0c65e2&=&format=webp&quality=lossless&width=1228&height=1228",
+		Text:    "WTN Sniper",
+		IconURL: "https://s3-eu-west-1.amazonaws.com/tpd/logos/5c741846c666770001962f39/0x0.png",
 	}
 	tempEmbed.Color = 366185
 	tempEmbed.Timestamp = time.Now().UTC().Format("2006-01-02T15:04:05.000Z")
@@ -309,8 +309,8 @@ func (s *WTNSession) acceptErrorWebhook(offer Offer_Result, err_msg string) bool
 	})
 	tempEmbed.Thumbnail.URL = offer.Image
 	tempEmbed.Footer = notifier.Footer{
-		Text:    "Kitsune WTN",
-		IconURL: "https://media.discordapp.net/attachments/1198216317870817292/1199790308074979370/kitsune.png?ex=65c3d2cc&is=65b15dcc&hm=f3c166eae7f0b33c9af82656d85c73e5390c47cc8f984ebefb4ec74c3f0c65e2&=&format=webp&quality=lossless&width=1228&height=1228",
+		Text:    "WTN Sniper",
+		IconURL: "https://s3-eu-west-1.amazonaws.com/tpd/logos/5c741846c666770001962f39/0x0.png",
 	}
 	tempEmbed.Color = 366185
 	tempEmbed.Timestamp = time.Now().UTC().Format("2006-01-02T15:04:05.000Z")
